@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="images/splash/splash-icon-big.png">
+    <link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" 	media="screen and (max-device-width: 320px)" />  
+    <link rel="apple-touch-startup-image" href="images/splash/splash-screen%402x.png" media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+    <link rel="apple-touch-startup-image" href="images/splash/splash-screen-six.png" media="(device-width: 375px)">
+    <link rel="apple-touch-startup-image" href="images/splash/splash-screen-six-plus.png" media="(device-width: 414px)">
+    <link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen%403x.png" />
+    <link rel="apple-touch-startup-image" sizes="1024x748" href="images/splash/splash-screen-ipad-landscape.html" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)" />
+    <link rel="apple-touch-startup-image" sizes="768x1004" href="images/splash/splash-screen-ipad-portrait.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)" />
+    <link rel="apple-touch-startup-image" sizes="1536x2008" href="images/splash/splash-screen-ipad-portrait-retina.png"   media="(device-width: 768px)	and (orientation: portrait)	and (-webkit-device-pixel-ratio: 2)"/>
+    <link rel="apple-touch-startup-image" sizes="1496x2048" href="images/splash/splash-screen-ipad-landscape-retina.png"   media="(device-width: 768px)	and (orientation: landscape)	and (-webkit-device-pixel-ratio: 2)"/>
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+
+    <title>Rajasthan Tourism</title>
+
+    <link href="styles/style.css"     		 rel="stylesheet" type="text/css">
+    <link href="styles/framework.css" 		 rel="stylesheet" type="text/css">
+    <link href="styles/owl.theme.css" 		 rel="stylesheet" type="text/css">
+    <link href="styles/swipebox.css"		 rel="stylesheet" type="text/css">
+    <link href="styles/font-awesome.css"	 rel="stylesheet" type="text/css">
+    <link href="styles/animate.css"			 rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="breadcrumb.css">
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/jqueryui.js"></script>
+    <script type="text/javascript" src="scripts/framework.plugins.js"></script>
+    <script type="text/javascript" src="scripts/custom.js"></script>
+    <script type="text/javascript" src="js/location.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<style type="text/css">
+.f{
+    position:fixed;
+    right:5px;
+    bottom:5px; 
+}
+body {
+    text-align: center;
+}
+.topnav { 
+    font-size: 0.8em;
+    color: #000;
+    background-color: /;d
+    border: 1px #00009C solid;
+    padding: 0.5em;
+}  
+</style>
+<body> 
+
+    <div id="preloader">
+       <div id="status">
+           <p class="center-text">
+             Loading the content...
+             <em>Loading depends on your connection speed!</em>
+         </p>
+     </div>
+ </div>
+ <div class="f" style="z-index:10000;opacity:1.0;">
+    <a href="nearByMe.html">
+    <!-- <span class="glyphicon glyphicon-map-marker"></span>
+    -->
+    <span class="fa-stack fa-3x">
+        <i class="fa fa-circle fa-stack-2x" style="color: #FF9100;opacity: 1.0;"></i>
+        <span  style="background-color:#4286f4;">
+            <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+        </span>
+    </span>    
+
+</a>
+</div>
+</div>
+<ul class="menu-top" style="text-align:left;">
+    <li ><a><i class="fa fa-map-marker"></i>Im in <h6 id="u_location"> </h6><i class="fa fa-circle"></i></a></li>
+    <li ><a href="index.html"><i class="fa fa-home"></i>Homepage<i class="fa fa-circle"></i></a></li>
+    <li ><a href="nearByMe.html"><i class="fa fa-location-arrow"></i>Places Near By<i class="fa fa-circle"></i></a></li>   
+    <li><a href="hotels.html"><i class="fa fa-h-square"></i>Hotels<i class="fa fa-circle"></i></a></li>
+    <li>
+        <a class="has-submenu" href="#"><i class="fa fa-mobile"></i>Emergency Calls<i class="fa fa-plus"></i></a>
+        <ul class="submenu">
+            <li><a href="tel:+1 234 567 890"><i class="fa fa-phone"></i> Police</a></li>
+            <li><a href="tel:+1 234 567 890"><i class="fa fa-phone"></i> Ambulance</a></li>
+            <li><a href="tel:+1 234 567 890"><i class="fa fa-phone"></i> Fire</a></li>
+        </ul>
+    </li>    
+    <li>
+        <a  href="Settings.html"><i class="fa fa-cog"></i>Settings<i class="fa fa-circle"></i></a>
+    </li>   
+    <li><a href="contact.html"><i class="fa fa-info-circle"></i>About Us<i class="fa fa-circle"></i></a></li>
+    <li><a class="close-menu" href="#"><i class="fa fa-times"></i>Close<i class="fa fa-circle"></i></a></li>
+</ul>
+
+<div class="header">
+    <a href="index.html" class="header-logo"><h2>Rajasthan Tourism</h2></a>
+    <a href="#" class="header-navigation show-navigation"><i class="fa fa-navicon"></i></a>
+    <a href="#" class="header-navigation1" class="pull-left">
+       
+    </a>
+</div>
+
+<div class="header-clear"></div>
+
+<div class="slider-container">
+    <div class="homepage-slider" data-snap-ignore="true">                
+        <div>
+            <div class="overlay"></div>
+            <img src="https://s26.postimg.org/bz5aevv8p/slider1.jpg" class="responsive-image" alt="img">
+        </div>
+        <div>
+            <div class="overlay"></div>
+            <img src="https://s26.postimg.org/wz8tmnrop/slider2.jpg" class="responsive-image" alt="img">
+        </div>
+        <div>
+            <div class="overlay"></div>
+            <img src="https://s26.postimg.org/49lxpzstl/slider3.jpg" class="responsive-image" alt="img">
+        </div>
+    </div>
+</div>
+<div class="top-call-to-action full-bottom" style="margin-bottom: 0px;">
+    <a href="#"><i class="fa fa-home"></i> Home</a>
+    <a href="statePage.html"><i class="fa fa-share"></i> More</a>
+    <!-- <a href="contact.html"><i class="fa fa-envelope-o"></i> Mail</a>-->
+</div>
+<div class="content-strip full-bottom">
+    <div class="content-strip-content">
+        <p style="font-family: 'Satisfy', cursive;font-size: 2.6em;margin-bottom:70px;margin-top: 0px;">Incredible Rajasthan</p><br>
+        <p style="font-family: 'Patrick Hand', cursive;font-size: 2em"><i>"Padhaaro Mhaare Des..."
+        </i> 
+    </p>
+</div>
+<div class="content-strip-overlay"></div>
+</div>
+
+<div class="content">
+    <div class="decoration"></div>
+    <div class="container no-bottom">
+        <!-- Page Columns-->
+        <div class="one-half-responsive">
+            <p class="thumb-left no-bottom">
+                <img src="https://s26.postimg.org/raoqqfoax/amber_fort.jpg" alt="img">
+                <strong>1. Amber fort </strong>
+                <em><br>Amer, originally, was the capital of the state before Jaipur. It is a fort, built in 1592 by Raja Man Singh.</em>
+            </p>
+            <div class="thumb-clear"></div>
+        </div>
+        <div class="decoration hide-if-responsive"></div>
+        <div class="one-half-responsive last-column">        
+            <p class="thumb-right no-bottom">
+                <img src="https://s26.postimg.org/otczjfzc9/city_palace_udaipur.jpg" alt="img">
+                <strong>2. City palace,Udaipur</strong>
+                <em><br>City Palace, Udaipur, is a palace located on the eastern banks of Pichola lake, Rajasthan.</em>
+            </p>
+            <div class="thumb-clear"></div>
+        </div>
+        <div class="decoration hide-if-responsive"></div>
+        <div class="one-half-responsive">
+            <p class="thumb-left no-bottom">
+                <img src="https://s26.postimg.org/xodttx649/mehrangarh_garh.jpg" alt="img">
+                <strong>3.Mehrangarh fort</strong>
+                <em><br>Mehrangarh located in Jodhpur, Rajasthan, is one of the largest forts in India.</em>
+            </p>
+            <div class="thumb-clear"></div>
+        </div>
+        <div class="decoration hide-if-responsive"></div>
+        <div class="one-half-responsive last-column">        
+            <p class="thumb-right no-bottom">
+                <img src="https://s26.postimg.org/nebeuklcp/Kumbhalgarh.jpg" alt="img">
+                <strong>4. Kumbhalgarh</strong>
+                <em><br>Kumbhalgarh is a Mewar fortress on the westerly range of Aravalli Hills.</em>
+            </p>
+            <div class="thumb-clear"></div>
+        </div>
+        <div class="decoration hide-if-responsive"></div>
+        <div class="one-half-responsive">
+            <p class="thumb-left no-bottom">
+                <img src="https://s26.postimg.org/azomudjll/ranakpur.jpg" alt="img">
+                <strong>5. Ranakpur</strong>
+                <em><br>Ranakpur is widely known for its marble Jain temple. It is located between Jodhpur and Udaipur.</em>
+            </p>
+            <div class="thumb-clear"></div>
+        </div>
+        <div class="decoration hide-if-responsive"></div>
+        <div class="one-half-responsive last-column">
+            <p class="thumb-right no-bottom">
+                <img src="https://s26.postimg.org/5bic3gs3t/pushkar.jpg" alt="img">
+                <strong>6. Pushkar</strong>
+                <em><br> Pushkar Lake, a sacred Hindu site with 52 ghats, where pilgrims bathe.</em>
+            </p>
+            <div class="thumb-clear"></div>
+        </div>
+        <div class="decoration hide-if-responsive"></div>
+        <div class="one-half-responsive">
+            <p class="thumb-left no-bottom">
+                <img src="https://s26.postimg.org/piqpy8ykp/ranthambore.jpg" alt="img">
+                <strong>7. Ranthambore</strong>
+                <em><br>Ranthambore National Park is a vast wildlife reserve near the town of Sawai Madhopur in Rajasthan.</em>
+            </p>
+            <div class="thumb-clear"></div>
+        </div>
+        <div class="decoration hide-if-responsive"></div>
+        <div class="one-half-responsive last-column">
+            <p class="thumb-right no-bottom">
+                <img src="https://s26.postimg.org/c1ytcxhuh/Thar_desert.jpg" alt="img">
+                <strong>8. Thar desert</strong>
+                <em><br>The Thar Desert, also known as the Great Indian Desert,it covers an area of 200,000 km².</em>
+            </p>
+            <div class="thumb-clear"></div>
+        </div>
+</div>
+<div class="menu-wrapper-background"></div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
